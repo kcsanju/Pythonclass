@@ -1,25 +1,25 @@
-# students_score = [
+students_score = [
 
-#     {"name": "Ram", "score": 80},
-#     {"name": "Sita", "score": 100},
-#     {"name": "Abc", "score" : 35 },
-#     {"name": "xyz", "score" :40},
-#     {"name": "john", "score": 37},
-#     {"name": "shyam", "score": 90},
-#     {"name": "hari", "score": 36},
-# ]
-# out= []
-# for i in students_score:
-#     score = i.get("score")
-#     if score >= 40:
-#         out.append(i)
+    {"name": "Ram", "score": 80},
+    {"name": "Sita", "score": 100},
+    {"name": "Abc", "score" : 35 },
+    {"name": "xyz", "score" :40},
+    {"name": "john", "score": 37},
+    {"name": "shyam", "score": 90},
+    {"name": "hari", "score": 36},
+]
+out= []
+for i in students_score:
+    score = i.get("score")
+    if score >= 40:
+        out.append(i)
 
-# print(out)
+print(out)
 
 
-# #using filter
-# output = list(filter(lambda i:i.get("score") >= 40, students_score))
-# print(output)
+#using filter
+output = list(filter(lambda i:i.get("score") >= 40, students_score))
+print(output)
 
 
 #task 4(2)
